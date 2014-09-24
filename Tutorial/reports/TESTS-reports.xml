@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="1" name="reports.Reports" skipped="0" tests="1" time="0.001"><testcase classname="reports.Reports" name="generate report" status="failed" time="0.001"><failure message="" type="AssertionError">
+<![CDATA[
+Failing step: Then report ... failed in 0.001s
+Location: reports.feature:5
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\behave\model.py", line 1173, in run
+    match.run(runner.context)
+  File "C:\Python27\lib\site-packages\behave\model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "C:\Automation\Tutorial\steps\reports.py", line 10, in test_report
+    assert False
+AssertionError
+]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: generate report
+    Given generate ... passed in 0.000s
+    Then report ... failed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
