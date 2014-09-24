@@ -7,5 +7,5 @@ def test_generate(context):
     
 @step('report')
 def test_report(context):
-    pass
+    assert False
     
